@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.omega.packetfixer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "packetfixer.refmap.json",
+  "mixins": [
+    "PacketEncoderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
